@@ -1,0 +1,476 @@
+.App {
+  height: 100vh;
+  display: flex;
+  
+}
+
+.App__Aside {
+  width: 100%;
+  background-image: url('pic1.jpg');
+  background-size: 100% 100%;
+  height: auto;
+  overflow: auto;
+  background-repeat: no-repeat;
+  
+}
+
+.App__Form {
+  width: 40%;
+  background: rgba(105, 100, 103, 0.5); /* Black background with 0.5 opacity */
+  margin-left:auto; margin-right: 30%;
+  margin-bottom: auto;
+  margin-top: 2%;
+  border-style: inset;
+}
+
+.User_Form {
+  width: 40%;
+  background: rgba(105, 100, 103, 0.5); /* Black background with 0.5 opacity */
+  margin-left:auto; margin-right: 30%;
+  margin-bottom: auto;
+  margin-top: 2%;
+  overflow: hidden;
+  border-style: inset;
+}
+.Lab_App__Form {
+  width: 90%;
+  background-color:lightslategray;
+  margin-left:auto; margin-right: auto ;
+  overflow: auto;
+}
+
+.Hospital_App__Form {
+  width: 90%;
+  background-color:lightslategray;
+  margin-left:auto; margin-right: auto ;
+  overflow: auto;
+}
+
+
+.PageSwitcher {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10%;
+}
+
+.PageSwitcher__Item {
+  background-color: #4C5D72;
+  color: #9DA6B1;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: #5ED0C0;
+  color: white;
+}
+
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.CenterText{
+  text-align:center;
+}
+.FormCenter {
+  margin-bottom: 100px;
+
+}
+.Selection_Form {
+  margin-bottom: 100px;
+  margin-left: 30%;
+}
+.MyFormCenter {
+  margin-bottom: 50px;
+}
+
+.MyText {
+  color:  black;
+  margin-left: 3%;
+  font-weight: 300;
+}
+.GreyBackgroundText {
+  color:  black;
+  background-color:lightslategray;
+  margin-left: 3%;
+  font-weight: 300;
+}
+.TabText {
+  color:  black;
+ 
+}
+
+.LabText {
+  color:  black;
+  margin-left: 3%;
+  align-items: flex-end;
+  font-weight: 300;
+}
+.LabText_Button {
+  
+  color:  black;
+  margin-left: 5vh;
+  align-items: flex-end;
+  font-weight: 300;
+  
+}
+
+.FormTitle {
+  color:  black;
+  text-align: center;
+
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.LabFormTitle {
+  color:  black;
+  text-align: left;
+
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.BoxBorder{
+  
+box-sizing: content-box;
+width: 90%;
+background-color:lightslategray;
+margin-top: 4%;
+margin-bottom: 4%;
+margin-left: auto;
+margin-right: auto;
+border: solid black 5px;
+padding: 5px;
+}
+
+.FormTitle__Link {
+  color:blue;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.7em;
+  margin: 0 10px;
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color:blue;
+  border-bottom: 1px solid #199087;
+}
+
+.FormField {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.FormFieldLeft {
+  margin-bottom: 40px;
+
+  text-align: left;
+}
+.FormFieldRight {
+  margin-bottom: 40px;
+  
+  text-align: right;
+}
+
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .9em;
+  color: white;
+}
+.FormField__Input {
+  width: 85%;
+  background-color: transparent;
+  border: none;
+  color: black;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.Form_background {
+  width: 85%;
+  background-color: white;
+  border: none;
+  color: black;
+  outline: none;
+  border-bottom: 1px solid #445366;
+  font-size: 1em;
+  font-weight: 300;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.medicalFormButton{
+  margin-top: 15%;
+  margin-left: 25%;
+
+}
+.prescriptionbox{
+  margin-top: 5%;
+  margin-right: 12%;
+
+}
+
+.FormField__Input::placeholder {
+  color: white;
+}
+
+.FormField__Button {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  padding: 15px 70px;
+  font-size: .8em;
+  font-weight: 500;
+}
+
+.Center_Dropdown {
+  background-color: black;
+  color: white;
+  border: none;
+
+
+  outline: none;
+  border-radius: 20px;
+  padding: 15px 70px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.Patient__Button {
+  background-color: black;
+  color: pink;
+  border: none;
+  outline: none;
+  margin-left:100px;
+  float:right;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: .5em;
+  font-weight: 500;
+}
+
+.Upload_Text {
+  color:  black;
+  margin-left:-6%;
+  font-weight: 300;
+}
+.Upload_Style {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  margin-right: 7%;
+  float:right;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: .5em;
+  font-weight: 500;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+
+.FormField__Link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1.5px solid #225E62;
+  padding-bottom: 5px;
+}
+
+.FormField__CheckboxLabel {
+  color: #646F7D;
+  font-size: .9em;
+}
+
+.FormField__Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField__TermsLink {
+  color: white;
+  border-bottom: 1px solid #199087;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+.icon {
+  display: inline;
+  position: absolute;
+  left:1%;
+  top:2%;
+  display: inline-block;
+}
+
+
+.fa-bars:before
+{
+  content:"\f0c9"
+}
+
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: right;
+  float:right;
+  top:-02px;
+  right:140px;
+}
+
+.dropdown-content {
+  display: none;
+  font-weight: 4;
+  float: left;
+  color:  black;
+  background-color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-weight: 1;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:click {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+}
+.label_upload {
+  padding:8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.PatientInfoForm{
+  width: 165vh;
+  background-color:lightslategray;
+  margin-top: 5vh;
+  padding: 1vh;
+  margin-left:auto; margin-right: auto ;
+  overflow: auto;
+}
+.PatientInfoForm > h1{
+  font-weight: bold;
+  text-align: center;
+}
+.PatientBoxBorder{
+  
+    box-sizing: content-box;
+    width: 150vh;
+    background-color:white;
+    margin-top: 1vh;
+    height: 70vh;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 5px;
+    padding: 5px;
+    opacity: 110%;
+    overflow: auto;
+    
+}
+#GeneralCenter{
+  text-align: center;
+}
+#Address  Center{
+  text-align: center;
+}
+#ContactCenter{
+  text-align: center;
+}
+
+#bottom {
+  width: 100%;
+  height: 100%;
+}
+#alreadyMember{
+  color: #000;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  box-sizing: border-box;
+  float: left;
+  padding:1vh 1vh;
+}
+
+
+* { box-sizing: border-box; }
+
+#content {
+
+  padding: 0.5rem;
+  display: flex;
+}
+
+#left,
+#right {
+
+ 
+  padding: 0.5rem;
+  flex-grow: 1;
+  
+}
+.imageClass{
+  padding:2vh
+}
